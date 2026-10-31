@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore data files (sudah di-track di Git LFS atau di-ignore)
+data/
+logs/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
