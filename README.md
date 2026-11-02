@@ -7,8 +7,8 @@ Proyek ini bertujuan untuk **menyaring dan mengumpulkan data lengkap event lari 
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/running-event-scraper.git
-cd running-event-scraper
+git clone https://github.com/username/running-event.git
+cd running-event
 ```
 
 ### 2. Buat Virtual Environment
@@ -53,7 +53,7 @@ SCRAPE_PAUSE=true python3 scrape_all.py
 # Setiap hari pukul 06:00 WIB
 crontab -e
 # Tambahkan baris ini:
-0 6 * * * /home/username/running-event-scraper/venv/bin/python scrape_all.py >> /home/username/running-event-scraper/logs/cron.log 2>&1
+0 6 * * * /home/username/running-event/venv/bin/python scrape_all.py >> /home/username/running-event/logs/cron.log 2>&1
 ```
 
 ### D. Auto-Resume dari Data Sebelumnya

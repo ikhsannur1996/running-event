@@ -2,7 +2,7 @@
 # Script menjalankan scraper di VM
 # Bisa dipause dengan environment variable SCRAPE_PAUSE
 
-cd /home/$(whoami)/running-event-scraper
+cd /home/$(whoami)/running-event
 source venv/bin/activate
 
 echo "[$(date)] Memulai scraping..."
